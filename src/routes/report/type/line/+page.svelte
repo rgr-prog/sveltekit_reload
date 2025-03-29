@@ -39,10 +39,10 @@ Seed:{data?.query_params?.seed}
 
 <ul>
 	<li>
-		<a href="/report/type/bar">Vá para Bar</a>
+		<a href="/report/type/bar">Goto Bar</a>
 	</li>
 	<li>
-		<a href="/login">Vá para o login</a>
+		<a href="/login">Goto login</a>
 	</li>
 
 	<li>

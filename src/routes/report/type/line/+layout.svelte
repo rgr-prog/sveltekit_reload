@@ -5,5 +5,5 @@
 	export let data: LayoutData;
 </script>
 
-<p>Layout do /report/type/line {data.query_params.seed}</p>
+<p>Layout of /report/type/line {data.query_params.seed}</p>
 <slot />

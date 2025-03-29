@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { beforeNavigate } from '$app/navigation';
-	beforeNavigate(() => console.log('RWX beforeNavigate'));
+	beforeNavigate(() => console.log('T beforeNavigate'));
 	import type { LayoutData } from './$types';
 	export let data: LayoutData;
 </script>
