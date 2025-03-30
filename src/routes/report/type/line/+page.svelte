@@ -9,7 +9,7 @@
 		console.log('Agora o Line ve data:', JSON.stringify(data));
 	}
 	onMount(() => {});
-	async function evaluateParams() {
+	async function updateQueryParams() {
 		const currentUrl = page.url;
 		const params = currentUrl.searchParams;
 		params.set('ids', Date.now().toString());
@@ -46,7 +46,7 @@ Seed:{data?.query_params?.seed}
 	</li>
 
 	<li>
-		<button on:click={() => evaluateParams()}>Evaluate</button>
+		<button on:click={() => updateQueryParams()}>Evaluate</button>
 	</li>
 	<li>
 		<button on:click={() => reload()}>Invalidade</button>
