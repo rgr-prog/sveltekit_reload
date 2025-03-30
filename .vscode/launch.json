@@ -8,20 +8,8 @@
 			"name": "Launch Edge",
 			"request": "launch",
 			"type": "msedge",
-			"url": "http://localhost:5173",
+			"url": "http://localhost:5179",
 			"webRoot": "${workspaceFolder}"
-		},
-
-		{
-			"type": "browse-lite",
-			"name": "Browse Lite: Attach",
-			"request": "attach"
-		},
-		{
-			"type": "browse-lite",
-			"request": "launch",
-			"name": "Browse Lite: Launch",
-			"url": "http://localhost:3000"
 		}
 	]
 }
